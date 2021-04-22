@@ -1,0 +1,252 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:26:06
+* VERSION: 3.7.3.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.4.16 | SAPI: apache2handler
+PHP MEMORY:	5000M | SUHOSIN: disabled
+SERVER:		Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.4.16
+DOC ROOT:	C:/xampp/htdocs/source_shopee
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/source_shopee/dup-installer/main.installer.php?archive=C%3A%2Fxampp%2Fhtdocs%2Fsource_shopee%2F20181209_mauwebshopthietkewebsiten_df57adb20019e8e19503_20181209064237_archive.zip&bootloader=installer.php&
+SAFE MODE :	0
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20181209_mauwebshopthietkewebsiten_df57adb20019e8e19503_20181209064237_archive.zip
+SIZE:	52.97MB
+
+>>> Starting ZipArchive Unzip
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 9219
+    [filename] => C:\xampp\htdocs\source_shopee\20181209_mauwebshopthietkewebsiten_df57adb20019e8e19503_20181209064237_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2021-04-12 14:26:12
+<<< ZipArchive Unzip Complete: true
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 02:26:12 - RUNTIME: 5.7601 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 02:29:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+
+WARNING: The database script is '3.69MB' in size.  The PHP memory allocation is set
+at '5000M'.  There is a high possibility that the installer script will fail with
+a memory allocation error when trying to load the database.sql file.  It is
+recommended to increase the 'memory_limit' setting in the php.ini config file.
+see: https://snapcreek.com/duplicator/docs/faqs-tech#faq-trouble-056-q 
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.18 -- Build Server: 10.2.16
+FILE SIZE:	database.sql (3.69MB) - installer-data.sql (3.69MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+NEW SQL FILE:	[C:/xampp/htdocs/source_shopee/installer-data.sql]
+COLLATE FB:	Off
+DB CHUNKING:	disabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	0
+DROPPED TABLES:	52
+RENAMED TABLES:	0
+QUERIES RAN:	15844
+
+wp_commentmeta: (18)
+wp_comments: (21)
+wp_duplicator_pro_entities: (5)
+wp_duplicator_pro_packages: (0)
+wp_links: (0)
+wp_options: (358)
+wp_postmeta: (1880)
+wp_posts: (209)
+wp_term_relationships: (177)
+wp_term_taxonomy: (96)
+wp_termmeta: (205)
+wp_terms: (96)
+wp_usermeta: (37)
+wp_users: (1)
+wp_wc_download_log: (0)
+wp_wc_webhooks: (0)
+wp_wfblockediplog: (0)
+wp_wfblocks7: (0)
+wp_wfconfig: (245)
+wp_wfcrawlers: (2)
+wp_wffilechanges: (0)
+wp_wffilemods: (5189)
+wp_wfhits: (253)
+wp_wfhoover: (0)
+wp_wfissues: (1)
+wp_wfknownfilelist: (5189)
+wp_wflivetraffichuman: (20)
+wp_wflocs: (1)
+wp_wflogins: (2)
+wp_wfnotifications: (5)
+wp_wfpendingissues: (0)
+wp_wfreversecache: (0)
+wp_wfsnipcache: (0)
+wp_wfstatus: (1192)
+wp_wftrafficrates: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (3)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (144)
+wp_woocommerce_order_items: (16)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_woof_query_cache: (0)
+wp_yoast_seo_links: (164)
+wp_yoast_seo_meta: (191)
+Removed '68' cache/transient rows
+
+INSERT DATA RUNTIME: 17.2532 sec.
+STEP-2 COMPLETE @ 02:29:56 - RUNTIME: 17.3306 sec.
+
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:30:27
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8mb4
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+Subsite id=-1
+wp_commentmeta~ (18)
+wp_comments~ (21)
+wp_duplicator_pro_entities~ (5)
+wp_duplicator_pro_packages^ (0)
+wp_links^ (0)
+wp_options~ (358)
+wp_postmeta~ (1880)
+wp_posts~ (209)
+wp_term_relationships~ (177)
+wp_term_taxonomy~ (96)
+wp_termmeta~ (205)
+wp_terms~ (96)
+wp_usermeta~ (37)
+wp_users~ (1)
+wp_wc_download_log^ (0)
+wp_wc_webhooks^ (0)
+wp_wfblockediplog^ (0)
+wp_wfblocks7^ (0)
+wp_wfconfig~ (245)
+wp_wfcrawlers~ (2)
+wp_wffilechanges^ (0)
+wp_wffilemods~ (5189)
+wp_wfhits~ (253)
+wp_wfhoover^ (0)
+wp_wfissues~ (1)
+wp_wfknownfilelist~ (5189)
+wp_wflivetraffichuman~ (20)
+wp_wflocs~ (1)
+wp_wflogins~ (2)
+wp_wfnotifications~ (5)
+wp_wfpendingissues^ (0)
+wp_wfreversecache^ (0)
+wp_wfsnipcache^ (0)
+wp_wfstatus~ (1192)
+wp_wftrafficrates^ (0)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies~ (3)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_log^ (0)
+wp_woocommerce_order_itemmeta~ (144)
+wp_woocommerce_order_items~ (16)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+wp_woocommerce_sessions~ (1)
+wp_woocommerce_shipping_zone_locations^ (0)
+wp_woocommerce_shipping_zone_methods^ (0)
+wp_woocommerce_shipping_zones^ (0)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_woof_query_cache^ (0)
+wp_yoast_seo_links~ (164)
+wp_yoast_seo_meta~ (191)
+Partial off
+--------------------------------------
+Search1:	'/home/u615491263/public_html/shop2' 
+Change1:	'C:/xampp/htdocs/source_shopee' 
+Search2:	'\/home\/u615491263\/public_html\/shop2' 
+Change2:	'C:\/xampp\/htdocs\/source_shopee' 
+Search3:	'%2Fhome%2Fu615491263%2Fpublic_html%2Fshop2%2F' 
+Change3:	'C%3A%2Fxampp%2Fhtdocs%2Fsource_shopee%2F' 
+Search4:	'\home\u615491263\public_html\shop2' 
+Change4:	'C:/xampp/htdocs/source_shopee' 
+Search5:	'//shop2.ninhbinhweb.net' 
+Change5:	'//localhost:8080/source_shopee' 
+Search6:	'\/\/shop2.ninhbinhweb.net' 
+Change6:	'\/\/localhost:8080\/source_shopee' 
+Search7:	'%2F%2Fshop2.ninhbinhweb.net' 
+Change7:	'%2F%2Flocalhost%3A8080%2Fsource_shopee' 
+SCANNED:	Tables:52 	|	 Rows:15721 	|	 Cells:86397 
+UPDATED:	Tables:4 	|	 Rows:573 	|	 Cells:674 
+ERRORS:		0 
+RUNTIME:	0.517000 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - 'C:/xampp/htdocs/source_shopee/wp-config-arc.txt'
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Removed '0' schedule storage items
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 02:30:27 - RUNTIME: 0.5277 sec. 
+
+
